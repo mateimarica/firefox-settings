@@ -250,6 +250,7 @@ user_pref("devtools.accessibility.enabled", false);
 ****************************************************************************/
 /** Enter your personal prefs below this line ***/
 user_pref("ui.key.menuAccessKeyFocuses", false);
+user_pref("extensions.unifiedExtensions.enabled", false); // removes extension button in top-right
 
 /****************************************************************************
  * END: BETTERFOX                                                           *
