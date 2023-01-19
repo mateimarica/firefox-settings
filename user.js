@@ -83,8 +83,6 @@ user_pref("browser.newtab.preload", false);
 user_pref("browser.places.speculativeConnect.enabled", false);
 
 /** SEARCH / URL BAR ***/
-user_pref("browser.search.separatePrivateDefault", true);
-user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.urlbar.groupLabels.enabled", false);
 user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
@@ -251,6 +249,7 @@ user_pref("devtools.accessibility.enabled", false);
 /** Enter your personal prefs below this line ***/
 user_pref("ui.key.menuAccessKeyFocuses", false);
 user_pref("extensions.unifiedExtensions.enabled", false); // removes extension button in top-right
+user_pref("browser.urlbar.update2.engineAliasRefresh", true); // allows you to add custom search engines
 
 /****************************************************************************
  * END: BETTERFOX                                                           *
