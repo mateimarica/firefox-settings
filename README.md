@@ -1,0 +1,1 @@
+My custom firefox settings. Built off the user.js of [Betterfox](https://github.com/yokoffing/Betterfox).
