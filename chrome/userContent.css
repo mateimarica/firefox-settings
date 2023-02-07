@@ -1,5 +1,19 @@
+/* Expand D2L directory list */
 @-moz-document domain(lms.unb.ca) {
 	.dco {
 		max-height: none !important;
 	}
 }
+
+@-moz-document domain(openvellum.ecollege.com) {
+	.col-lg-10 {
+		width: 100% !important;
+	}
+	
+	#copyright {
+		display: none !important;
+	}
+}
+
+
+

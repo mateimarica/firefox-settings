@@ -1,0 +1,38 @@
+
+/* Resize menus */
+menupopup > menuitem, menupopup > menu {
+	padding-block: 0.18em !important;
+	padding-inline-start: 1em !important;
+}
+
+#context_moveTabOptions, #context_reloadTab, #context_selectAllTabs, #context_closeTab, #context_bookmarkTab, #context_openANewTab, .share-tab-url-item, #context_openANewTab + menuseparator, #context_undoCloseTab, #context_reopenInContainer, #context_reopenInContainer ~ menuseparator, .bookmarks-actions-menuseparator, .openintabs-menuitem {
+	display: none !important;
+}			
+
+
+
+
+
+/*** Undo "Close Tab Options" ***/
+  /* Hide "Close Tab Options" menu */
+  #context_closeTabOptions {
+    display: none !important;
+  }
+  /* Move "Close Tab Options" items from extensions up to old positions */
+  #context_undoCloseTab,
+  #context_undoCloseTab ~ * {
+    -moz-box-ordinal-group: 3;
+  }
+  #_588c6fa6-14f9-4826-b769-71a305c80bbb_-menuitem-_close_right {
+    -moz-box-ordinal-group: 1;
+  }
+  #_a02f4411-7950-4b43-abcd-23a01a9ce719_-menuitem-_close_other_tabs {
+    -moz-box-ordinal-group: 2;
+  }
+/*** End of: Undo "Close Tab Options" ***/
+
+/*** Hide Tab Context Menu's Last Menu Separator ***/
+  #tabContextMenu > menuseparator:last-of-type {
+    display: none !important;
+  }
+/*** End of: Hide Tab Context Menu's Last Menu Separator ***/
