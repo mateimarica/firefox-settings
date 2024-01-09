@@ -5,7 +5,7 @@ menupopup > menuitem, menupopup > menu {
 	padding-inline-start: 1em !important;
 }
 
-#context_moveTabOptions, #context_reloadTab, #context_selectAllTabs, #context_closeTab, #context_bookmarkTab, #context_openANewTab, .share-tab-url-item, #context_openANewTab + menuseparator, #context_undoCloseTab, #context_reopenInContainer, #context_reopenInContainer ~ menuseparator, .bookmarks-actions-menuseparator, .openintabs-menuitem, #appMenu-fxa-status2, #appMenu-fxa-separator {
+#context_moveTabOptions, #context_reloadTab, #context_selectAllTabs, /* #context_closeTab,*/ #context_bookmarkTab, #context_openANewTab, .share-tab-url-item, #context_openANewTab + menuseparator, #context_undoCloseTab, #context_reopenInContainer, #context_reopenInContainer ~ menuseparator, .bookmarks-actions-menuseparator, .openintabs-menuitem, #appMenu-fxa-status2, #appMenu-fxa-separator {
 	display: none !important;
 }			
 
