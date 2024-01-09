@@ -13,7 +13,8 @@
 	#copyright {
 		display: none !important;
 	}
+	
+	#centerIframe {
+		min-height: 1080px !important; 
+	}
 }
-
-
-

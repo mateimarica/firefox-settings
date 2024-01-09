@@ -250,7 +250,7 @@ user_pref("devtools.accessibility.enabled", false);
 user_pref("ui.key.menuAccessKeyFocuses", false);
 //user_pref("extensions.unifiedExtensions.enabled", false); // removes extension button in top-right
 user_pref("browser.urlbar.update2.engineAliasRefresh", true); // allows you to add custom search engines
-user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"); // fake generic user agent
+//user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"); // fake generic user agent
 
 /****************************************************************************
  * END: BETTERFOX                                                           *
