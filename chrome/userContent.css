@@ -18,3 +18,29 @@
 		min-height: 1080px !important; 
 	}
 }
+
+@-moz-document domain(www.joinrs.com) {
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+		max-width: 9999px !important;
+	}
+}
+
+@-moz-document domain(www.eluta.ca) {
+	/* makes the "next" button big and easy to click on */
+	#pager-next {
+		font-size: 100px !important;
+	}
+}
+
+@-moz-document domain(www.linkedin.com) {
+	/* makes long resume names visible on https://www.linkedin.com/jobs/application-settings */
+	.jobs-resume-card__filedata {
+		margin-right: 0 !important;
+		width: 100% !important;
+	}
+	
+	/* makes job listings fill 100% of the screen */
+	.scaffold-layout__inner {
+		width: 100% !important;
+	}      
+}

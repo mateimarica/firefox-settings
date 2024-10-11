@@ -12,3 +12,5 @@ git init
 git remote add origin git@github.com:mateimarica/firefox-settings.git
 git pull origin master
 ```
+
+Note: The userContent.css file contains styles for specific websites that I use. Probably want to delete it. 
