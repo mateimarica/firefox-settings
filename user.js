@@ -254,6 +254,7 @@ user_pref("browser.urlbar.update2.engineAliasRefresh", true); // allows you to a
 user_pref("full-screen-api.warning.timeout", 0); //  disable "you are now full screen" warning
 user_pref("full-screen-api.transition-duration.enter", "0 0"); // disable transitional animation when you enter and exit full screen
 user_pref("full-screen-api.transition-duration.leave", "0 0");
+user_pref("reader.parse-on-load.enabled", false); /* hide "reader view" icon */
 
 /****************************************************************************
  * END: BETTERFOX                                                           *
